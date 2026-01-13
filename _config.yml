@@ -15,7 +15,7 @@ title                    : "Alex Jordan"
 title_separator          : "-"
 subtitle                 : "Vanderbilt Class of 2029"
 name                     : &name "Alex Jordan" # &name is a YAML anchor which can be *referenced later
-description              : &description "Vanderbilt Class of 2029 "
+description              : &description "Vanderbilt Class of 2029"
 url                      : https://AlexJordan06.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 
