@@ -8,7 +8,7 @@ title: "About Alex Jordan"
  
 Alex Jordan is an analytical thinker and creative problem solver passionate about fabrication, and holds a focus on the intersection of technology, data, and security. He excels at leveraging data to uncover insights and inform solutions. 
 
-* Academy for Classical Education High School 
+* Academy for Classical Education High School
 * Vanderbilt University School of Engineering Class of 2029
   * Pursuing Majors in Computer Science and Economics
     * Seeking Minors in Digital Fabrication, National Security, and Mathematics
