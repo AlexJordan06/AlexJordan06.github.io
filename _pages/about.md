@@ -17,7 +17,7 @@ Alex Jordan is an analytical thinker and creative problem solver passionate abou
 
 Alex has held a variety of roles that have strengthened his technical foundation and shaped the passions that continue to drive his work today.
 
-* Teaching Assistant - Spring 2026
+* Teaching Assistant - Spring 2026 
   * Rapid Prototyping (DF 2100) 
 * Undergraduate Research Assistant - Spring 2026
   * Worked on 3D Printing Automation
