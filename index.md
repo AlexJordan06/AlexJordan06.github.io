@@ -1,26 +1,24 @@
 ---
-title: "Example Web Page"
+title: "Alex Jordan - Undergraduate Portfolio"
 layout: splash
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_filter: "0.6"
+  overlay_image: /assets/img/Website Banner.jpeg
   actions:
-    - label: "My Projects"
+    - label: "Recent Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Alex has a passion for digital fabrication, and develops that through hands-on coursework in CAD and prototyping. This portfolio showcases projects from multiple digital fabrication courses and represents a growing body of work he continues to build and refine."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/Resin Rebels Syringe Pump.jpg
+    alt: "Syringe Pump"
+    title: "DIY Syringe Pump"
+    excerpt: "Built for dispensing extremely accurate volumes of fluid"
+  - image_path: assets/img/Phone Case Iterations.jpg
+    alt: "Phone Cases"
+    title: "Phone Case Iterations"
+    excerpt: "Several rounds of prototyping for a protective iPhone case"
+
 ---
 
 {% include feature_row %}
