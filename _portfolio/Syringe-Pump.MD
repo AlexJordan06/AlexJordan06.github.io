@@ -63,4 +63,7 @@ gallery:
 | Syringe Handle Holder B | 1   |
 | Carriage |  1  |
 
+# Code Required For Arduino Uno
+* The code for the Arduino, which controls the motor, LED feedback, and input from the user, can be found [here](/Finalized-Syringe-Pump-Code.ino).
+
 {% include gallery caption="Syringe Pump Gallery" %}
