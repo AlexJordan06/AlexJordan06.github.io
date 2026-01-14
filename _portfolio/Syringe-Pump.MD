@@ -64,6 +64,6 @@ gallery:
 | Carriage |  1  |
 
 # Code Required For Arduino Uno
-* The code for the Arduino, which controls the motor, LED feedback, and input from the user, can be found [here](AlexJordan06.github.io/Finalized-Syringe-Pump-Code.ino).
+* The code for the Arduino, which controls the motor, LED feedback, and input from the user, can be found [here](https://github.com/AlexJordan06/AlexJordan06.github.io/blob/main/Finalized-Syringe-Pump-Code.ino).
 
 {% include gallery caption="Syringe Pump Gallery" %}
