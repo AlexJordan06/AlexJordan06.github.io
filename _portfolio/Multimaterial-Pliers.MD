@@ -39,20 +39,5 @@ gallery:
 | Sparse Infill Pattern | Rectilinear | The rectilinear pattern allows for bending and flexing along the axes needed in order to pinch the end of the pliers |
 | Infill Density | %18 | I found that this percentage of infill allowed for structural stability, while still providing a flexible piece in the center |
 
-| Setting        | Value Used    |
-| ----------- | ----------- |
-| Perimeters     | 3       |
-| Horizontal Top Layers   | 0        |
-| 200 mm Linear Rod w/ 8 mm Diameter | 2 |
-| LM8UU Linear Bearing for 8 mm Diameter Rod | 2 |
-| 2040 Aluminum Extrusion 1' Length | 1 |
-| Nema 17 Stepper Motor | 1 |
-| MEAN WELL RQ-65D AC-DC Power Supply Quad Output 5V 12V 24V 4 AMP | 1 |
-| Arduino Uno | 1 |
-| A4988 Stepper Driver | 1 |
-| Small Breadboard | 1 |
-| Panel Mount Latching Push Button | 1 |
-| Limit Switch | 1 |
-| RGB Common Cathode LED | 1 |
 
 {% include gallery caption="Multimaterial Pliers Gallery" %}
