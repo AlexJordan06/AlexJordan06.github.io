@@ -2,10 +2,10 @@
 title: "Multimaterial Pliers"
 excerpt: "These pliers are made from two different types of plastic, one flexible and one not, that allow it to function similar to a true pair of pliers."
 header:
-  teaser: /assets/img/Resin Rebels Syringe Pump.jpg
+  teaser: /assets/img/Pliers propped Up.jpg
 gallery:
-  - image_path: assets/img/Resin Rebels Syringe Pump.jpg
-  - image_path: assets/img/Electrical Wiring SP.jpg
+  - image_path: assets/img/Pliers propped Up.jpg
+  - image_path: assets/img/Pliers Flat on Table.jpg
    
 ---
  
