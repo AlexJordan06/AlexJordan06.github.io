@@ -29,11 +29,8 @@ gallery:
   * Materials that work best for print in place parts are ones that have similar chemical compositions and surface energy. The surface energy is measured by the contact angle that a drop of liquid forms with the material, and if that angle is similar between two materials their surface energy is fairly similar.
 
 
-# Modified Print Settings For Flexible Portion
+# Modified Print Settings For Flexible Portion (TPU 95 w/ 0.6 brass nozzle)
 
-* This was created using a 0.6mm brass nozzle, printing TPU 95A
-
-* Specific Settings Modified
 | Setting | Value Used | Reasoning |
 | ------- | ---------- | --------- |
 | Perimeters | 3 | The parts that connect to the hardened portions of the pliers need to be strong enough to withstand some force, so I wanted them completely filled in |
@@ -42,10 +39,10 @@ gallery:
 | Sparse Infill Pattern | Rectilinear | The rectilinear pattern allows for bending and flexing along the axes needed in order to pinch the end of the pliers |
 | Infill Density | %18 | I found that this percentage of infill allowed for structural stability, while still providing a flexible piece in the center |
 
-| Item        | Quantity    |
+| Setting        | Value Used    |
 | ----------- | ----------- |
-| 250 mm Lead Screw w/ 2mm Pitch and 8 mm Lead      | 1       |
-| 1/4" x 8mm Flexible Coupling   | 1        |
+| Perimeters     | 3       |
+| Horizontal Top Layers   | 0        |
 | 200 mm Linear Rod w/ 8 mm Diameter | 2 |
 | LM8UU Linear Bearing for 8 mm Diameter Rod | 2 |
 | 2040 Aluminum Extrusion 1' Length | 1 |
