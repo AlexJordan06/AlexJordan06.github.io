@@ -35,11 +35,27 @@ gallery:
 
 * Specific Settings Modified
 | Setting | Value Used | Reasoning |
-|---|---|---|
+| ------- | ---------- | --------- |
 | Perimeters | 3 | The parts that connect to the hardened portions of the pliers need to be strong enough to withstand some force, so I wanted them completely filled in |
 | Horizontal Top Layers | 0 | Without any top layers, this exposes the infill and allows for even more flexibility of the piece without hinderance by a completely filled layer |
 | Horizontal Bottom Layers | 0 | Similar reasoning as above |
 | Sparse Infill Pattern | Rectilinear | The rectilinear pattern allows for bending and flexing along the axes needed in order to pinch the end of the pliers |
 | Infill Density | %18 | I found that this percentage of infill allowed for structural stability, while still providing a flexible piece in the center |
+
+| Item        | Quantity    |
+| ----------- | ----------- |
+| 250 mm Lead Screw w/ 2mm Pitch and 8 mm Lead      | 1       |
+| 1/4" x 8mm Flexible Coupling   | 1        |
+| 200 mm Linear Rod w/ 8 mm Diameter | 2 |
+| LM8UU Linear Bearing for 8 mm Diameter Rod | 2 |
+| 2040 Aluminum Extrusion 1' Length | 1 |
+| Nema 17 Stepper Motor | 1 |
+| MEAN WELL RQ-65D AC-DC Power Supply Quad Output 5V 12V 24V 4 AMP | 1 |
+| Arduino Uno | 1 |
+| A4988 Stepper Driver | 1 |
+| Small Breadboard | 1 |
+| Panel Mount Latching Push Button | 1 |
+| Limit Switch | 1 |
+| RGB Common Cathode LED | 1 |
 
 {% include gallery caption="Multimaterial Pliers Gallery" %}
