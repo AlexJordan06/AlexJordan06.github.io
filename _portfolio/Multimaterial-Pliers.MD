@@ -29,7 +29,17 @@ gallery:
   * Materials that work best for print in place parts are ones that have similar chemical compositions and surface energy. The surface energy is measured by the contact angle that a drop of liquid forms with the material, and if that angle is similar between two materials their surface energy is fairly similar.
 
 
-#Print Settings
+# Modified Print Settings For Flexible Portion
 
+* This was created using a 0.6mm brass nozzle, printing TPU 95A
+
+* Specific Settings Modified
+| Setting | Value Used | Reasoning |
+|---|---|---|
+| Perimeters | 3 | The parts that connect to the hardened portions of the pliers need to be strong enough to withstand some force, so I wanted them completely filled in |
+| Horizontal Top Layers | 0 | Without any top layers, this exposes the infill and allows for even more flexibility of the piece without hinderance by a completely filled layer |
+| Horizontal Bottom Layers | 0 | Similar reasoning as above |
+| Sparse Infill Pattern | Rectilinear | The rectilinear pattern allows for bending and flexing along the axes needed in order to pinch the end of the pliers |
+| Infill Density | %18 | I found that this percentage of infill allowed for structural stability, while still providing a flexible piece in the center |
 
 {% include gallery caption="Multimaterial Pliers Gallery" %}
