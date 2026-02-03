@@ -18,6 +18,10 @@ feature_row:
     alt: "Phone Cases"
     title: "Phone Case Iterations"
     excerpt: "Several rounds of prototyping for a protective iPhone case"
+  - image_path: assets/img/Pliers propped Up.jpg
+    alt: "Multimaterial Pliers"
+    title: "Multimaterial Pliers"
+    excerpt: "Made from TPU 95A and PLA, print-in-place practice"
 
 ---
 
