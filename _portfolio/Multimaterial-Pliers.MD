@@ -14,6 +14,8 @@ gallery:
 * Overall Project
   * This project was focused on making a pair of pliers that would not only work with large objects, but be able to successfully pick up a resistor with relative ease off of a surface to demonstrate its proficiency. The interior of the pliers was printed with TPU-95A, which is far more flexible than the PLA used to print the harder handles and plier piece. The flexibility of the middle piece, when paired with the slicer settings being modified to only have infill for that area of the print for added flexibility, allow the pliers to move as a unit when pinched from the sides of the handle and work effectively. 
 
+![Pliers In Action](/assets/img/GIF For Multimaterial Pliers.gif)
+
 * Design Process
   * I was fortunate enough to only need one printed iteration which worked perfectly as intended. This was due to the fact that I utilized Fusion 360 CAD design, and made sure that the pliers were exactly as I wanted them before I printed even a prototype. This allowed for much faster creation of the final project, and did not waste any material as well. The jaw length is almost 20 mm, and the width between them in their resting state is right around 10 mm. When pinched, the pliers favor coming to a point at the end rather than having uniform force across the face of the contact area.
 
