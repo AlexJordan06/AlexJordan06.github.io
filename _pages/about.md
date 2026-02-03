@@ -43,5 +43,5 @@ After spending his first semester in the Digital Fabrication course Rapid Protot
 * Selected to participate in Georgia Governor's Honors Program 2023
   * Majored in Chemistry, Minored in Mechatronics
 
-<img src="/assets/img/SeniorPictureB&W.jpg" alt="Alex Jordan" style="width:200px;"/>
+<img src="/assets/img/Headshot For TA.png" alt="Alex Jordan" style="width:200px;"/>
 
