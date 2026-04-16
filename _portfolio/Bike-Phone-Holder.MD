@@ -1,5 +1,5 @@
 ---
-title: "Rotatable Bike Phone Holder"
+title: "Rotatable Bike Phone Holder" 
 excerpt: "This phone holder was designed in Fusion 360's top down modeling feature, and is able to rotate to any position that the user sees fit, while still maintaining a grip on the bike handle"
 header:
   teaser: /assets/img/Pliers propped Up.jpg
