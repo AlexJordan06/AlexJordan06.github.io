@@ -27,7 +27,7 @@ gallery:
   * Top down text
 
 * Assembly and Instructions
-  * Assembly text
+  * In order to put this together, there are really only 3 main pieces, with then 2 other helping pieces. 
 
 # Modified Print Settings For Flexible Portion (TPU 95 w/ 0.6 brass nozzle)
 
