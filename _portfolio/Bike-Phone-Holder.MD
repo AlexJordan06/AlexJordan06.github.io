@@ -40,4 +40,4 @@ gallery:
 | Infill Density | %18 | I found that this percentage of infill allowed for structural stability, while still providing a flexible piece in the center |
 
 
-{% include g
+{% include gallery caption="Multimaterial Pliers Gallery" %}
