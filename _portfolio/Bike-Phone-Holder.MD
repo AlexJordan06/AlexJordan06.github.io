@@ -7,6 +7,7 @@ gallery:
   - image_path: assets/img/AgainstWall.jpg
   - image_path: assets/img/Side View.jpg
   - image_path: assets/img/detent_mechanism.jpg
+  - image_path: assets/img/PhoneRender.jpg
    
 ---
  
