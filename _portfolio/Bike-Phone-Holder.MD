@@ -1,6 +1,6 @@
 ---
 title: "Rotatable Bike Phone Holder" 
-excerpt: "This phone holder was designed in Fusion 360's top down modeling feature, and is able to rotate to any position that the user sees fit, while still maintaining a grip on the bike handle"
+excerpt: "This phone holder was designed to rotate to any position that the user sees fit, while still maintaining a grip on the bike handle"
 header:
   teaser: /assets/img/Pliers propped Up.jpg
 gallery:
@@ -12,32 +12,23 @@ gallery:
 # Description
 
 * Overall Project
-  * This project was focused on making a pair of pliers that would not only work with large objects, but be able to successfully pick up a resistor with relative ease off of a surface to demonstrate its proficiency. The interior of the pliers was printed with TPU-95A, which is far more flexible than the PLA used to print the harder handles and plier piece. The flexibility of the middle piece, when paired with the slicer settings being modified to only have infill for that area of the print for added flexibility, allow the pliers to move as a unit when pinched from the sides of the handle and work effectively. 
+  * The objective of this project was to create a phone mount for a bike, where the phone can clip onto the handlebar, and then also rotate to the user’s desired orientation. This was done by having a spring and ball bearing be the main components in a detent mechanism, which is pictured here. In order to make this compatible with any phone, I included a spring mechanism in the back that clenches two parts together that hold the side of the phone, pictured here. I ended up printing all components out of PETG, as it was stronger and held up better than PLA, which will be useful when used outdoors, or for the detent mechanism in general. 
 
 ![Pliers In Action](/assets/img/GIF For Multimaterial Pliers.gif)
 
-* Design Rationale
-  * I was fortunate enough to only need one printed iteration which worked perfectly as intended. This was due to the fact that I utilized Fusion 360 CAD design, and made sure that the pliers were exactly as I wanted them before I printed even a prototype. This allowed for much faster creation of the final project, and did not waste any material as well. The jaw length is almost 20 mm, and the width between them in their resting state is right around 10 mm. When pinched, the pliers favor coming to a point at the end rather than having uniform force across the face of the contact area.
+* Detent Mechanism
+  * The way that this works is that there are 8 different grooves that are the diameter of a ball bearing, in a gear like fashion. This way, when the spring is pushing on the ball bearing, it slides into one of the grooves. However, it is smooth enough and with the tension of the spring being not too forceful, the user is able to turn the device and the ball slides down into the slot, before being extended once again by the spring once it has the room to via the next groove in the gear. 
 
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028117d03d04fa6b15fd1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Top Down Modeling Practices
 
-  * Top down text
+  * Top down modeling was very useful in this project for a variety of reasons. For one, it has the ability that assemblies do to picture all parts that need to work together in one frame so the user can see how the parts will interact with one another. However, it also grants the user the ability to make new parts without needing to open up a new file and continuously flip back and forth updating different changes. It grants the best of both worlds in this regard. This also makes assembling joints very easy, so the bodies can move in tandem. 
 
 * Assembly and Instructions
-  * In order to put this together, there are really only 3 main pieces, with then 2 other helping pieces. 
+  * In order to put this together, there are really only 3 main pieces, with then 2 other helping pieces. The first piece is the one that connects to the bike. The circular structure slides on the end, and then 2 M3 fasteners screw in to tighten it to the bar. Then, the second piece, the detent mechanism that is connected to the base of the phone holder, slides in the circle that is on the back of the handle grip. If you include the spacer piece as well, the detent should sit flush with the inside of the grip, the flat part. From there, you can put the spring and ball into the hole located in the grip, making sure the ball slides in and aligns with one of the grooves in the detent. Then, put on the detent back plate, and then screw that in with an M5 fastener. From there, slide in the left side of the phone grip, which should be the last piece to assemble. Then, attach the two grips with 2 tightening springs via the hooks on the back. This allows the user to use a phone of any size, and still get the tight grip they desire. 
 
-# Modified Print Settings For Flexible Portion (TPU 95 w/ 0.6 brass nozzle)
-
-| Setting | Value Used | Reasoning |
-| ------- | ---------- | --------- |
-| Perimeters | 3 | The parts that connect to the hardened portions of the pliers need to be strong enough to withstand some force, so I wanted them completely filled in |
-| Horizontal Top Layers | 0 | Without any top layers, this exposes the infill and allows for even more flexibility of the piece without hinderance by a completely filled layer |
-| Horizontal Bottom Layers | 0 | Similar reasoning as above |
-| Sparse Infill Pattern | Rectilinear | The rectilinear pattern allows for bending and flexing along the axes needed in order to pinch the end of the pliers |
-| Infill Density | %18 | I found that this percentage of infill allowed for structural stability, while still providing a flexible piece in the center |
-
+  * This works fairly well, with a little bit of looseness after using the detent for a while. If I were to try and recreate a better design, I would consider using a tighter fit between the detent and the handle grip, as the looseness allows for a bit of rattling. However, all things considered, it works pretty well for a prototyped design.
 
 {% include gallery caption="Multimaterial Pliers Gallery" %}
