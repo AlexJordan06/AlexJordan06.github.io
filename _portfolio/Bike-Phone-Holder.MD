@@ -6,15 +6,16 @@ header:
 gallery:
   - image_path: assets/img/AgainstWall.jpg
   - image_path: assets/img/Side View.jpg
+  - image_path: assets/img/detent_mechanism.jpg
    
 ---
  
 # Description
 
 * Overall Project
-  * The objective of this project was to create a phone mount for a bike, where the phone can clip onto the handlebar, and then also rotate to the user’s desired orientation. This was done by having a spring and ball bearing be the main components in a detent mechanism, which is pictured here. In order to make this compatible with any phone, I included a spring mechanism in the back that clenches two parts together that hold the side of the phone, pictured here. I ended up printing all components out of PETG, as it was stronger and held up better than PLA, which will be useful when used outdoors, or for the detent mechanism in general. 
+  * The objective of this project was to create a phone mount for a bike, where the phone can clip onto the handlebar, and then also rotate to the user’s desired orientation. This was done by having a spring and ball bearing be the main components in a detent mechanism, which is pictured in the gallery. In order to make this compatible with any phone, I included a spring mechanism in the back that clenches two parts together that hold the side of the phone. I ended up printing all components out of PETG, as it was stronger and held up better than PLA, which will be useful when used outdoors, or for the detent mechanism in general. 
 
-![Pliers In Action](/assets/img/GIF For Multimaterial Pliers.gif)
+![Phone Mount in Action](/assets/img/output_under25mb.gif)
 
 * Detent Mechanism
   * The way that this works is that there are 8 different grooves that are the diameter of a ball bearing, in a gear like fashion. This way, when the spring is pushing on the ball bearing, it slides into one of the grooves. However, it is smooth enough and with the tension of the spring being not too forceful, the user is able to turn the device and the ball slides down into the slot, before being extended once again by the spring once it has the room to via the next groove in the gear. 
