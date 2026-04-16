@@ -4,8 +4,8 @@ excerpt: "This phone holder was designed to rotate to any position that the user
 header:
   teaser: /assets/img/Pliers propped Up.jpg
 gallery:
-  - image_path: assets/img/Pliers propped Up.jpg
-  - image_path: assets/img/Pliers Flat on Table.jpg
+  - image_path: assets/img/AgainstWall.jpg
+  - image_path: assets/img/Side View.jpg
    
 ---
  
