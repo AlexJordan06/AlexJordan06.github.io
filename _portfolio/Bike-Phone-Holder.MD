@@ -2,9 +2,7 @@
 title: "Rotatable Bike Phone Holder" 
 excerpt: "This phone holder was designed to rotate to any position that the user sees fit, while still maintaining a grip on the bike handle"
 header:
-  teaser: <p align="center">
-            <img src="/assets/img/AgainstWall.jpg" />
-          </p>
+  teaser: /assets/img/ZoomedTeaser.jpg
 gallery:
   - image_path: assets/img/AgainstWall.jpg
   - image_path: assets/img/Side View.jpg
