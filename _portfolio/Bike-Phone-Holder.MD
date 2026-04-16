@@ -33,4 +33,4 @@ gallery:
 
   * This works fairly well, with a little bit of looseness after using the detent for a while. If I were to try and recreate a better design, I would consider using a tighter fit between the detent and the handle grip, as the looseness allows for a bit of rattling. However, all things considered, it works pretty well for a prototyped design.
 
-{% include gallery caption="Multimaterial Pliers Gallery" %}
+{% include gallery caption="Phone Mount Gallery" %}
