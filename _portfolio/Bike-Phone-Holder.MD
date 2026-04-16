@@ -2,7 +2,7 @@
 title: "Rotatable Bike Phone Holder" 
 excerpt: "This phone holder was designed to rotate to any position that the user sees fit, while still maintaining a grip on the bike handle"
 header:
-  teaser: /assets/img/Pliers propped Up.jpg
+  teaser: /assets/img/Side View.jpg
 gallery:
   - image_path: assets/img/AgainstWall.jpg
   - image_path: assets/img/Side View.jpg
@@ -21,7 +21,7 @@ gallery:
   * The way that this works is that there are 8 different grooves that are the diameter of a ball bearing, in a gear like fashion. This way, when the spring is pushing on the ball bearing, it slides into one of the grooves. However, it is smooth enough and with the tension of the spring being not too forceful, the user is able to turn the device and the ball slides down into the slot, before being extended once again by the spring once it has the room to via the next groove in the gear. 
 
 # CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028117d03d04fa6b15fd1?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 # Top Down Modeling Practices
 
