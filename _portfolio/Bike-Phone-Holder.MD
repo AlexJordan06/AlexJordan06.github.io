@@ -8,7 +8,11 @@ gallery:
   - image_path: assets/img/Side View.jpg
   - image_path: assets/img/detent_mechanism.jpg
   - image_path: assets/img/PhoneRender.jpg
-   
+  - image_path: assets/img/DetentHolderJPG.jpg
+  - image_path: assets/img/DetentJPG.jpg
+  - image_path: assets/img/GripJPG.jpg
+  - image_path: assets/img/SpacerJPG.jpg
+  - image_path: assets/img/SlidePartJPG.jpg
 ---
  
 # Description
