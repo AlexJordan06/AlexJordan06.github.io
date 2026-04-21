@@ -21,6 +21,10 @@ gallery:
 * Detent Mechanism
   * The way that this works is that there are 8 different grooves that are the diameter of a ball bearing, in a gear like fashion. This way, when the spring is pushing on the ball bearing, it slides into one of the grooves. However, it is smooth enough and with the tension of the spring being not too forceful, the user is able to turn the device and the ball slides down into the slot, before being extended once again by the spring once it has the room to via the next groove in the gear. 
 
+* Changes in Iterations
+  * After my first iteration worked but was a bit loose, I realized that I would need to tighten the bolt a bit to avoid any rattling in the mechanism. To account for this, I made the detent holder a little bit thicker, and that should fix the issue. The other problem was that when the detent was moving, the pieces of plastic were too thin to actually work and snapped off a bit. To fix this, I made just 4 settings of position rather than 8. This means that it is still a tight fit and rotation, but avoids the extra noise that comes with being too thin to work effectively. 
+  * If I were to continue to improve on this model, I would try to print it in PLA as well to see if less strong plastic holds up just as well, and then I would also most likely see how it held up to an actual test of riding around with bumps and different external stresses (This could possibly be improved by using generative design and take into account forces, but thats for a future project).
+
 # CAD Model
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
