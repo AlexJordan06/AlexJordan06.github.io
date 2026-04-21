@@ -37,4 +37,7 @@ gallery:
 
   * This works fairly well, with a little bit of looseness after using the detent for a while. If I were to try and recreate a better design, I would consider using a tighter fit between the detent and the handle grip, as the looseness allows for a bit of rattling. However, all things considered, it works pretty well for a prototyped design.
 
+* Gallery Of Photos
+  * Provided below is the collection of photos that were taken of the parts separately and together, with some being taken in person while some are renderings. Provided are the renderings of the entire assembly, but then also each individual part that allow for one to see how they all work in tandem.
+
 {% include gallery caption="Phone Mount Gallery" %}
