@@ -48,11 +48,11 @@ gallery:
 
 | Name of Force        | Magnitude    | Location      | Rationale    |
 | ----------- | ----------- | ----------- | ----------- |
-| Weight of Rider      | 1000 N       | On sides of truck where wheels are mounted  | HI    |
-| Weight of Motor   | 1        | On sides of truck where wheels are mounted  | hello   |
-| Torque From Motor | 2 | On sides of truck where wheels are mounted  |  yo  |
-| Friction | 2 | On sides of truck where wheels are mounted  | yup yup    |
-| Lateral Turning | 1 | On sides of truck where wheels are mounted  |   uhuh  |
+| Weight of Rider (Bearing Load)     | 1000 N    | On sides of truck where wheels are mounted, pointed towards ground | This I made to be 1000 N, as it is a bit more than what I weigh, and I want to be able to accomodate others as well. It is pointed straight down, as that is how the rider will be positioned. It changes which wheel is more affected depending on which way the rider is turning in the turning load cases.    |
+| Weight of Motor (Moment)  | 10000 N        | On motor mount, facing perpendicular to face  | This needs to be a large amount and a moment due to the fact that it is dragging the plate inwards as it weighs on it, and then is offset by a bit due to the center of mass of the motor.   |
+| Torque From Motor (Moment) | 8000 N | On motor mount, rotating towards acceleration  | This is 8000 N because the motor produces roughly 8 N*m at the shaft, so in mm that is 8000. It is a moment due to the fact that it needs to be able to demonstrate directionality of the acceleration and belt tension. |
+| Friction (Force) | 20 N | On sides of truck where wheels are mounted  | These point in the opposite direction of acceleration, and change based on which wheel has more weight on it depending on turning or not. These are stronger when braking.    |
+| Lateral Turning (Force) | 400 N | On sides of truck where wheels are mounted, pointed towards one side or the other (directionality of the turn)  | This points to one side to indicate the side of the turn, is takes into account the extra forces placed on the hanger in order to stretch / compress during that turn. |
 
 
 ![Phone Mount in Action](/assets/img/output_under25mb.gif)
