@@ -32,27 +32,25 @@ gallery:
     * 
 * CAD Model For Steel Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-#
-#
 
-# Forces and Loads
-
-* Importance of load cases
-  * 
 
 ![Phone Mount in Action](/assets/img/output_under25mb.gif)
 
-* Detent Mechanism
-  * The way that this works is that there are 8 different grooves that are the diameter of a ball bearing, in a gear like fashion. This way, when the spring is pushing on the ball bearing, it slides into one of the grooves. However, it is smooth enough and with the tension of the spring being not too forceful, the user is able to turn the device and the ball slides down into the slot, before being extended once again by the spring once it has the room to via the next groove in the gear. 
 
-* Changes in Iterations
-  * After my first iteration worked but was a bit loose, I realized that I would need to tighten the bolt a bit to avoid any rattling in the mechanism. To account for this, I made the detent holder a little bit thicker, and that should fix the issue. The other problem was that when the detent was moving, the pieces of plastic were too thin to actually work and snapped off a bit. To fix this, I made just 4 settings of position rather than 8. This means that it is still a tight fit and rotation, but avoids the extra noise that comes with being too thin to work effectively. 
-  * If I were to continue to improve on this model, I would try to print it in PLA as well to see if less strong plastic holds up just as well, and then I would also most likely see how it held up to an actual test of riding around with bumps and different external stresses (This could possibly be improved by using generative design and take into account forces, but thats for a future project).
+# Forces and Loads
 
-# CAD Model
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+* Importance of Load Cases
+  * Without the proper load cases, either excess or not enough material will be applied to the part you are generating. It can also generate in places that are not needed in order to maintain full functionality. This is due to the fact that the Fusion Generative Design workspace takes the loads and load cases given to it by the user and adds material only in spaces that are absolutely needed in order to satisfy the user's stresses they put on the part. It makes a large amount of designs, and compiles them to give the user a singular output that should provide them with the best model for their purpose. The idea of generative design as a whole is to lightweight parts, and that cannot occur if the forces and loads given to the program are incorrect and generate unneeded or too much material.
 
-# Top Down Modeling Practices
+  * In order to determine which forces to use for my model, I used some of the information provided during in-class lectures, paired with Claude's Sonnet 4.6 engine to see where on the model these forces and their magnitudes would be best represented. Below is a chart of all the forces I used, and how they varied throughout the numerous load cases used.
+
+* Forces Used For Truck
+
+
+![Phone Mount in Action](/assets/img/output_under25mb.gif)
+
+
+# Generative Design As A Whole
 
   * Top down modeling was very useful in this project for a variety of reasons. For one, it has the ability that assemblies do to picture all parts that need to work together in one frame so the user can see how the parts will interact with one another. However, it also grants the user the ability to make new parts without needing to open up a new file and continuously flip back and forth updating different changes. It grants the best of both worlds in this regard. This also makes assembling joints very easy, so the bodies can move in tandem. 
 
