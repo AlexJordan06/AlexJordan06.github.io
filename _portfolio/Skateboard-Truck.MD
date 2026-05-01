@@ -46,6 +46,14 @@ gallery:
 
 * Forces Used For Truck
 
+| Name of Force        | Magnitude    | Location      | Rationale    |
+| ----------- | ----------- | ----------- | ----------- |
+| Weight of Rider      | 1000 N       | On sides of truck where wheels are mounted  | HI    |
+| Weight of Motor   | 1        | On sides of truck where wheels are mounted  | hello   |
+| Torque From Motor | 2 | On sides of truck where wheels are mounted  |  yo  |
+| Friction | 2 | On sides of truck where wheels are mounted  | yup yup    |
+| Lateral Turning | 1 | On sides of truck where wheels are mounted  |   uhuh  |
+
 
 ![Phone Mount in Action](/assets/img/output_under25mb.gif)
 
