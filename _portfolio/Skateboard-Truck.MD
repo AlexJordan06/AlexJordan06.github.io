@@ -2,39 +2,46 @@
 title: "Generative Design Skateboard Truck" 
 excerpt: "This is a skateboard truck made from Fusion's generative design process to accomodate a motor and forces required of a steel truck."
 header:
-  teaser: /assets/img/ZoomedTeaser.jpg
+  teaser: /assets/img/Truck3.jpg
 gallery:
-  - image_path: assets/img/AgainstWall.jpg
-  - image_path: assets/img/Side View.jpg
-  - image_path: assets/img/detent_mechanism.jpg
-  - image_path: assets/img/PhoneRender.jpg
-  - image_path: assets/img/DetentHolderJPG.jpg
-  - image_path: assets/img/DetentJPG.jpg
-  - image_path: assets/img/GripJPG.jpg
-  - image_path: assets/img/SpacerJPG.jpg
-  - image_path: assets/img/SlidePartJPG.jpg
+  - image_path: assets/img/Truck1.jpg
+  - image_path: assets/img/Truck2.jpg
+  - image_path: assets/img/Truck3.jpg
+  - image_path: assets/img/Standalone Truck.jpg
+  - image_path: assets/img/Stainless Steel Render.jpg
+  - image_path: assets/img/AluminumHangerRender.jpg
+  - image_path: assets/img/Full Assembly Render Steel.jpg
+
 ---
  
 # Description
 
 * Overall Project
   * The idea of this project was to create a skateboard truck prototype that would be able to handle a series of load cases, and could fit on the skateboard but be able to in theory be printed out of steel / aluminum. This was done through research about various loads, and applying those through the Fusion Generative Design workspace, paired with preserved and obstacle geometries to set boundaries for the design. After a model is generated, you can change what needs to be changed to make sure it will work with your specified purposes, which in this case replaced the hanger in the truck assembly. 
+  * I printed the prototype out of PETG at first, but that print failed, so I ended up on a design of PLA. Obviously this cannot withstand the same pressures that it could if it was made out of steel, but it is good for visualization and testing purposes.
+
+![Full Assembly Render](/assets/img/Full Assembly Render Steel.jpg)
+
+![Real Life Image](/assets/img/Standalone Truck.jpg)
+
 
 # Different Materials 
 
 * Aluminum VS Steel
   * Aluminum
+    * ![Aluminum Render](/assets/img/AluminumHangerRender.jpg)
     * The main thing to see in this model is that there is far more material than in the stainless steel model. This is because aluminum isn't quite as strong, and the Fusion workspace accounts for that by adding more material in needed places. It would still theoretically work, it just is the case that it isn't the most material-effective solution.
 * CAD Model For Aluminum Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b041df3245b80589?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
   * Steel
+    * ![Steel Render](/assets/img/Stainless Steel Render.jpg)
     * This has far less material than the aluminum model, and comes from the fact that it is just a flat out stronger material. Stainless steel is more durable, and has a higher tensile strength, and the generative design workspace takes tension into great consideration, so that makes the steel option inherently more powerful and lighter. 
 * CAD Model For Steel Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a83743fcde2efd0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
-![Phone Mount in Action](/assets/img/output_under25mb.gif)
+![Gif For Turning Forces](/assets/img/GifForTurn.gif)
 
 
 # Forces and Loads
@@ -55,7 +62,7 @@ gallery:
 | Lateral Turning (Force) | 400 N | On sides of truck where wheels are mounted, pointed towards one side or the other (directionality of the turn)  | This points to one side to indicate the side of the turn, is takes into account the extra forces placed on the hanger in order to stretch / compress during that turn. |
 
 
-![Phone Mount in Action](/assets/img/output_under25mb.gif)
+![Gif For Wheel Rotation With and Without Belt](/assets/img/GifForRotate.gif)
 
 
 # Generative Design As A Whole
@@ -67,7 +74,5 @@ gallery:
 
   * This works fairly well, with a little bit of looseness after using the detent for a while. If I were to try and recreate a better design, I would consider using a tighter fit between the detent and the handle grip, as the looseness allows for a bit of rattling. However, all things considered, it works pretty well for a prototyped design.
 
-* Gallery Of Photos
-  * Provided below is the collection of photos that were taken of the parts separately and together, with some being taken in person while some are renderings. Provided are the renderings of the entire assembly, but then also each individual part that allow for one to see how they all work in tandem.
 
-{% include gallery caption="Phone Mount Gallery" %}
+{% include gallery caption="Skateboard Truck Gallery" %}
