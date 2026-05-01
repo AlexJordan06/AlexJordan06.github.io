@@ -31,13 +31,13 @@ gallery:
   * Aluminum
     * ![Aluminum Render](/assets/img/AluminumHangerRender.jpg)
     * The main thing to see in this model is that there is far more material than in the stainless steel model. This is because aluminum isn't quite as strong, and the Fusion workspace accounts for that by adding more material in needed places. It would still theoretically work, it just is the case that it isn't the most material-effective solution.
-* CAD Model For Aluminum Truck
+    * CAD Model For Aluminum Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b041df3245b80589?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
   * Steel
     * ![Steel Render](/assets/img/Stainless Steel Render.jpg)
     * This has far less material than the aluminum model, and comes from the fact that it is just a flat out stronger material. Stainless steel is more durable, and has a higher tensile strength, and the generative design workspace takes tension into great consideration, so that makes the steel option inherently more powerful and lighter. 
-* CAD Model For Steel Truck
+    * CAD Model For Steel Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a83743fcde2efd0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
@@ -67,12 +67,18 @@ gallery:
 
 # Generative Design As A Whole
 
-  * Top down modeling was very useful in this project for a variety of reasons. For one, it has the ability that assemblies do to picture all parts that need to work together in one frame so the user can see how the parts will interact with one another. However, it also grants the user the ability to make new parts without needing to open up a new file and continuously flip back and forth updating different changes. It grants the best of both worlds in this regard. This also makes assembling joints very easy, so the bodies can move in tandem. 
+  * Why Generative Design is Great With SLS
+    * For a majority of generative design outcomes, there are geometries and shapes that come out to be incredibly organic and almost look natural occuring. Due to this, it is almost impossible to make these parts via traditional subtractive manufacturing methods. That is why this design structure works so well with SLS, because the part is supported by the powder that it is made from, and can be cleaned without needing the supports to be removed like in filament 3D printing.
+    * Printing my design from PLA taught me this valuable lesson, as it took a little over an hour of removing supports and post processing my finished prototype, while students who were able to print theirs out of nylon using the powder printer were able to finish post processing in as little as 10-15 minutes. 
+    * Because SLS is usually a batch process as well, you are able to make many prototypes in one, all supported by the powders. This becomes a bit trickier if you are printing with metal, as it has to attach to the build plate, but overall the concept still applies. 
 
-* Assembly and Instructions
-  * In order to put this together, there are really only 3 main pieces, with then 2 other helping pieces. The first piece is the one that connects to the bike. The circular structure slides on the end, and then 2 M3 fasteners screw in to tighten it to the bar. Then, the second piece, the detent mechanism that is connected to the base of the phone holder, slides in the circle that is on the back of the handle grip. If you include the spacer piece as well, the detent should sit flush with the inside of the grip, the flat part. From there, you can put the spring and ball into the hole located in the grip, making sure the ball slides in and aligns with one of the grooves in the detent. Then, put on the detent back plate, and then screw that in with an M5 fastener. From there, slide in the left side of the phone grip, which should be the last piece to assemble. Then, attach the two grips with 2 tightening springs via the hooks on the back. This allows the user to use a phone of any size, and still get the tight grip they desire. 
+  * Applications in Industry
+    * This technology is highly coveted in industries such as aerospace and automotive, as lightweighting parts is necessary and greatly reduces cost. Bulky frames and components can rack up unnecessary cost at a very quick rate, and being able to have as little material as possible while still accounting for all of the forces applied to the objects is very beneficial to the companies
+    * An example of this is in this article: [NASA: AI-Designed Mission Hardware](https://www.nasa.gov/technology/goddard-tech/nasa-turns-to-ai-to-design-mission-hardware/). Throughout the article, NASA breaks down how generative design and lightweighting parts actually cut down around 2/3 of the weight of the EXCITE telescopes used, and how CAD specialists are able to make these designs so effective because instead of just one product, NASA makes, "thousands of bespoke parts every year."
 
-  * This works fairly well, with a little bit of looseness after using the detent for a while. If I were to try and recreate a better design, I would consider using a tighter fit between the detent and the handle grip, as the looseness allows for a bit of rattling. However, all things considered, it works pretty well for a prototyped design.
+  * Is it Useful?
+    * I believe that generative design is incredibly useful, but that there are numerous drawbacks associated with it. The usefulness of the technology has already been covered earlier in this report: that lightweighting parts can really cut down cost of large scale manufacturing, and is good for prototyping possible models when paired with SLS technology. However, there are quite a few things that could go wrong in this process. For one, if the load cases are incorrect or missing, there is a high likelihood of part failure. This makes it pretty risky when used for advanced and costly missions such as the NASA one, as a broken piece can lead to devastating financial consequences, and in some severe cases, loss of human life. This can be counterracted through extensive research and professionals in their fields looking at the cases, but it doesn't eliminate the margin of error. Also, if the generative design model isn't completely effective, there is a chance that the part won't work even if the load cases are correct. 
+    * While these drawbacks can be bad, on the whole I believe that when utilized correctly, the technology is incredibly effective and useful.
 
 
 {% include gallery caption="Skateboard Truck Gallery" %}
