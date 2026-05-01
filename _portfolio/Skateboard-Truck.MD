@@ -28,7 +28,7 @@ gallery:
 # Different Materials 
 
 * Aluminum VS Steel
-  * Aluminum
+* Aluminum
     * ![Aluminum Render](/assets/img/AluminumHangerRender.jpg)
     * The main thing to see in this model is that there is far more material than in the stainless steel model. This is because aluminum isn't quite as strong, and the Fusion workspace accounts for that by adding more material in needed places. It would still theoretically work, it just is the case that it isn't the most material-effective solution.
     * CAD Model For Aluminum Truck
