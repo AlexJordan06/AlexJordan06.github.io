@@ -25,13 +25,15 @@ gallery:
 * Aluminum VS Steel
   * Aluminum
     * 
-# CAD Model For Aluminum Truck
+* CAD Model For Aluminum Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
   * Steel
     * 
-# CAD Model For Steel Truck
+* CAD Model For Steel Truck
 <iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+#
+#
 
 # Forces and Loads
 
