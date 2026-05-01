@@ -24,14 +24,14 @@ gallery:
 
 * Aluminum VS Steel
   * Aluminum
-    * 
+    * The main thing to see in this model is that there is far more material than in the stainless steel model. This is because aluminum isn't quite as strong, and the Fusion workspace accounts for that by adding more material in needed places. It would still theoretically work, it just is the case that it isn't the most material-effective solution.
 * CAD Model For Aluminum Truck
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811b041df3245b80589?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
   * Steel
-    * 
+    * This has far less material than the aluminum model, and comes from the fact that it is just a flat out stronger material. Stainless steel is more durable, and has a higher tensile strength, and the generative design workspace takes tension into great consideration, so that makes the steel option inherently more powerful and lighter. 
 * CAD Model For Steel Truck
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811656c2d3c34577db2?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811a83743fcde2efd0c?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 
 ![Phone Mount in Action](/assets/img/output_under25mb.gif)
